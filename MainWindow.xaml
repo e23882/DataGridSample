@@ -1,0 +1,24 @@
+﻿<Window x:Class="DataGridDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridDemo"
+        xmlns:sample="clr-namespace:DataGridDemo.DataGridSample.View"
+        xmlns:notify="clr-namespace:DataGridDemo.DataGridNotify"
+        xmlns:dev="clr-namespace:DataGridDemo.DevexpressStyleDataGrid.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <TabControl>
+        <TabItem Header="DataGridSample">
+            <sample:UcDataGridSample/>
+        </TabItem>
+        <TabItem Header="DataGridNotify">
+            <notify:UcDataGridNotify/>
+        </TabItem>
+        <TabItem Header="DataGrid DevexpressStyle">
+            <dev:DevexpressStyleDataGrid/>
+        </TabItem>
+    </TabControl>
+            
+</Window>
